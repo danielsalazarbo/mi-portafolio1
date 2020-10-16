@@ -1,0 +1,264 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #CECACA;
+}
+
+
+
+/* aqui comienza el header */
+.header{
+  background-color: #268A9A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 5px 20px #013A43;
+  position: relative;
+  z-index: 1;
+}
+.container{
+  display: inherit;
+  justify-content: inherit;
+  margin: 0 auto;
+  width: 1500px;
+  align-items: inherit;
+  padding: 0 15px;
+}
+.header figure{
+  margin: 0;
+}
+.ol-list{
+  list-style: none;
+  display: flex;
+}
+.header a{
+  /* color: #143A54; */
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.ancla{
+  color: #143A54;
+}
+.contac-buton{
+  background-color: #143A54;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+/* aqui comienza la parte principal */
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #268A9A;
+  /* margin-top: 5px; */
+  z-index: 2;
+}
+.hero figure{
+  margin: 0;
+}
+.hero-title{
+  font-size: 48px;
+  font-weight: bold; 
+  color: #143A54;
+}
+.hero-title strong{
+  color: #CECACA;
+}
+.hero .container{
+  background-image: url(../image/hero@2x.png);
+  background-position: right;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  padding: inherit;
+}
+
+
+
+/* aqui comienzan los proyectos */
+.proyect{
+  display: flex;
+}
+.container-title{
+  width: 1500px;
+  margin: 0 auto;
+}
+.proyect-container{
+  width: 1500px;
+  margin: 0 auto;
+}
+.proyect-container h2{
+  color: #143A54;
+  font-weight: bold;
+  font-size: 36px;
+  margin-left: 10px;
+}
+.mini-proyecto{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2F2F2;
+  border-radius: 25px;
+  margin: 0px 25px 15px 25px;
+  box-shadow: 5px 5px 20px #646262;
+}
+.proyect-detail{
+  /* width: 50%; */
+  font-size: 16px;
+  color: #303030;
+  padding-left: 15px;
+}
+.proyect-detail h3{
+  font-size: 2.5em;
+}
+.proyect-detail h6{
+  font-size: 1.3em;
+}
+.proyect-detail .date{
+  font-size: 1.3em;
+}
+.proyect-detail p{
+  font-size: 1.8em;
+}
+
+
+/* aqui comienza las tecnologias */
+.titulo-tecnologias{
+  display: flex;
+
+}
+.titulo-tecnologias1{
+  width: 1500px;
+  margin: 0 auto;
+  display: block;
+}
+.titulo-tecnologias1 p{
+  font-weight: bold;
+  font-size: 45px;
+  color: #143A54;
+  display: inline;
+  margin-left: 10px;
+}
+
+.tecnologias{
+  display: flex;
+}
+.tecnologias-container{
+  width: 1500px;
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.tecnologias-gatget{
+  margin-bottom: 15px;
+}
+
+.gatget-imgContainer img{
+  border-radius: 15px;
+  width: 648px;
+  height: 382px;
+  /* margin-bottom: -100px; */
+  /* z-index: 3; */
+  margin-left: -40px;
+}
+.gatget-detail{
+  width: 540px;
+  height: 302px;
+  background-color: #FFFFFF;
+  text-align: center;
+  /* z-index: 4; */
+  position: relative;
+  text-align: center;
+  margin-left: 32px;
+  margin-top: -200px;
+  padding: 20px;
+  box-shadow: 5px 5px 15px #000000;
+}
+.gatget-detail h4{
+  font-size: 48px;
+  font-weight: bold;
+  margin: auto;
+}
+.gatget-detail p{
+  font-size: 28px;
+  font-weight: bold;
+}
+.gatget-detail a{
+  font-size: 33px;
+  font-weight: bold;
+  margin: 15px;
+  border: 3px solid #143A54;
+  padding: 6px 12px;
+  color: #143A54;
+  text-decoration: none;
+}
+ 
+/* aqui comienza el contacto */
+.contacto{
+  display: flex;
+  background-color: #143A54;
+  justify-content: space-between;
+  align-items: center;
+}
+.contatco-container1{
+  display: inherit;
+  width: 1500px;
+  margin: 0 auto;
+  justify-content: inherit;
+  align-items: inherit;
+}
+.form-title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.contatco-container1 form{
+  margin-left: 12px;
+}
+.contatco-container1 input{
+  width: 400px ;
+  height: 60px;
+  border-radius: 10px;
+}
+.contatco-container1 input::placeholder{
+  font-size: 25px;
+}
+.contatco-container1 button{
+  color: white;
+  font-size: 35PX;
+  background-color: transparent;
+  border: 3PX solid white;
+  text-align: center;
+  margin: 12px 0;
+}
+
+/* aqui comienza el footer */
+footer{
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  
+}
+footer p{
+  margin-top: 0;
+  align-self: center;
+  display: contents;
+  color: #413E3E;
+  font-size: 38px;
+  padding-right: 10px;
+}
+
+
+
+
+
+
+/* if you can eny wey */
